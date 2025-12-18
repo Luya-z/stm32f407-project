@@ -1,0 +1,23 @@
+# ===== CLion =====
+.idea/
+cmake-build-*/
+build/
+
+# ===== STM32 CubeMX =====
+*.ioc
+*.mxproject
+
+# ===== 编译生成文件 =====
+*.o
+*.elf
+*.map
+*.hex
+*.bin
+*.lst
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+
+# ===== 日志 =====
+*.log
